@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+/*padding-top: 10px;*/
+  font-family: 'Rokkitt', "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+}
+#header {
+  background: url("images/fondo.jpg");
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-position: center center;
+  font-size: 16px;
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+#foto {
+  border: 5px solid #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eee no-repeat center;
+  background-image: url("https://avatars2.githubusercontent.com/u/17201291?s=460&v=4");
+  z-index: 10;
+  background-size: cover;
+}
+.socialNetworks {
+  background-color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10%;
+}
+#presentation {
+  padding-left: 30px;
+}
+#comboSN {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#cuadro {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 2%;
+  padding: 10px;
+}
+.counters-list {
+  color: #000;
+}
+.counters-list-count {
+  padding-left: 5px;
+  color: #000;
+}
+.counters-list-count:before {
+  content: "(";
+}
+.counters-list-count:after {
+  content: ")";
+}
+.sidebar-module a {
+  color: #808080;
+}
+.sidebar-module {
+  font-size: 16px;
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #808080;
+  font-weight: bold;
+}
+.sidebar-module h4 {
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+#articleExcerpts h2,
+a {
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+#article h1,
+a {
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+.blog-post-title-archive {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.blog-archive-title {
+  margin-bottom: 50px;
+}
+.blog-post-title-archive h2,
+a {
+  font-family: "Anaheim", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+span.glyphicon {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.image {
+  border: 2px solid #808080;
+  margin-left: auto;
+  margin-right: auto;
+}
